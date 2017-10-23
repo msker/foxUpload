@@ -2,6 +2,7 @@
 一个基于jQuery的上传插件
 
 使用示例：
+<script type="text/javascript">
 $(".pic-upload").foxUploader({
 	url: 'http://www.abc.com/action/?model=upload&action=upload',
 	//上传请求地址
@@ -77,3 +78,4 @@ $(".pic-upload").foxUploader({
 
 	}
 });
+</script>
